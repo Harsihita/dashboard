@@ -1,10 +1,20 @@
 .sidebar{
     position:fixed;
     height:100%;
-    width:300px;
+    width:320px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-   
+    top:0;
+    bottom:0;
+    overflow: scroll;
 }
+.sidebar::-webkit-scrollbar{
+    width:6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color:#b3b3b3;
+    padding:5px;
+  }
 .menu{
     list-style: none;
     position: relative;
@@ -78,4 +88,89 @@
     background-color: #f4f0ec;
     border-radius: 15px;
   
+}
+.main-box{
+    font-size: 17px;
+    padding: 6px 6px 10px 50px;
+    color:#b3b3b3;
+}
+.sub-dix{
+    font-size:22px;
+    padding: 13px 15px 14px 60px;
+}
+.sub-dix i{
+    position:relative;
+    right:15px;
+}
+.sub-dix:hover{
+    background-color: #f4f0ec;
+    border-radius: 15px;
+}
+.sub-dix .dropdown-1{
+    position:relative;
+    left:8rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-2{
+    position:relative;
+    left:9.2rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-3{
+    position:relative;
+    left:2rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-4{
+    position:relative;
+    left:8.6rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-5{
+    position:relative;
+    left:5.3rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-6{
+    position:relative;
+    left:1.9rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-7{
+    position:relative;
+    left:8.3rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-8{
+    position:relative;
+    left:4rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-9{
+    position:relative;
+    left:3rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-10{
+    position:relative;
+    left:8rem;
+    font-size: 20px;
+}
+.sub-dix .dropdown-11{
+    position:relative;
+    left:8rem;
+    font-size: 20px;
+}
+.sub-box{
+   padding:6px 6px 10px 1px;
+   display: block;
+}
+.sub-item-box{
+    list-style: none;
+    padding:10px;
+}
+.sub-item-box i{
+    font-size: 9px;
+    position: relative;
+    bottom: 2px;
 }
